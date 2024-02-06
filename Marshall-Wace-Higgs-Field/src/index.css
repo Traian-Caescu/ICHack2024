@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #20232a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #61dafb;
+  margin-right: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.user-info {
+  margin-left: auto;
+}
+
+.app-body {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  width: 40%;
+  background-color: #fff;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.control-panel {
+  margin-bottom: 2rem;
+}
+
+.control-panel h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.input-group,
+.toggle-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label,
+.toggle-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input-group select,
+.input-group input,
+.toggle-group input {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.toggle-group input {
+  margin-right: 0.5rem;
+}
+
+.play-button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #0056b3;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.graph-container {
+  width: 100%;
+  height: 40%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    padding: 0.5rem 0;
+  }
+
+  .app-body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.higgs-description {
+  flex: 3;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+}
+
+.higgs-description h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.higgs-description p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.higgs-description a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.higgs-description a:hover {
+  text-decoration: underline;
+}
+
+.references {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.references h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.references ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.references li + li {
+  margin-top: 0.5rem;
+}
+
+.references a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.references a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .info-section {
+    flex-direction: column;
+  }
+}
+
+.developers-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;
+  padding: 20px;
+}
+
+.developer-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.developer-avatar {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.developer-info {
+  padding: 15px;
+  text-align: center;
+  flex: 1;
+}
+
+.developer-info h3,
+.developer-info p {
+  margin: 10px 0;
+}
+
+.view-profile-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.view-profile-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .developers-section {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
