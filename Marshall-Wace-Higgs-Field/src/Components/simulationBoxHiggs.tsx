@@ -14,7 +14,7 @@ const ParticleEnergyPlot = ({ inputs, refresh }: Props) => {
   const VEV = 246000; // Vacuum Expectation Value (MeV)
   const particle = inputs.particle
   const velocity = inputs.velocity; // This could also be dynamic
-
+ 
   let x_loc = 10;
   const [y_loc, setYLoc] = useState(0); // Convert y_loc to a state variable
 
