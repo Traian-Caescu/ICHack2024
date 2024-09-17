@@ -32,7 +32,7 @@ const ParticleEnergyPlot = ({ inputs, refresh }: Props) => {
       setTime((prevTime) => prevTime + 0.1); // Adjust time increment for animation speed
     }, 100); // Adjust interval for frame rate
 
-    
+     
     const Particles_Dict = {
       "Electron": 9.11e-31,
       "Neutron": 1.674e-27,
