@@ -16,7 +16,7 @@ const ParticleEnergyPlot = ({ inputs, refresh }: Props) => {
   const velocity = inputs.velocity; // This could also be dynamic
  
   let x_loc = 10;
-  const [y_loc, setYLoc] = useState(0); // Convert y_loc to a state variable
+  const [y_loc, setYLoc] = useState(0); // Convert y_loc to a state variable 
 
   const [data, setData] = useState<any[]>([]);
   const [time, setTime] = useState<number>(0);
