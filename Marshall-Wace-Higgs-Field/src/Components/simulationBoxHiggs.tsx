@@ -9,7 +9,7 @@ type Props = {
 
 const ParticleEnergyPlot = ({ inputs, refresh }: Props) => {
   const WIDTH = 20; 
-  const HEIGHT = 20;
+  const HEIGHT = 20; 
   const DIFFUSIONRADIUS = 50;
   const VEV = 246000; // Vacuum Expectation Value (MeV)
   const particle = inputs.particle
