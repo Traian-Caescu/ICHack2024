@@ -1,38 +1,11 @@
-### EnViz: Physics Simplified
-This is EnViz, a physics simulator for educational purposes. It can currently simulate Higgs Field, Discrete Fourier Transform and Maxwell Coil Field!
+Inspiration
+We started EnViz because we saw how many students struggle with physics. It's a subject full of amazing ideas, but often they seem too abstract or hard to grasp. We wanted to make those big concepts not just easier to understand, but also fun to explore. Our goal was to show that physics isn't just about equations on a board—it's the science of how the universe works, and it's everywhere around us.
 
+What it does
+EnViz brings physics to life through interactive simulations. It lets students see and play with physics concepts, like gravity, motion, and energy. By moving sliders or pressing buttons, they can see how changing different factors affects things in real life. It's like having a physics lab on your computer or phone, where you can experiment without any limits.
 
-You can host it locally by using `npm start`.
+How we built it
+To build EnViz, we embarked on extensive research to accurately understand and code each physics module and formula, ensuring the educational content's reliability and depth. We utilized Python for its robust libraries to handle the complex calculations behind the simulations, bringing these concepts to life. These simulations were then integrated into a web interface using JavaScript, allowing for real-time interactivity and visualization. This approach enabled us to combine Python's computational capabilities with JavaScript's dynamic presentation, creating an engaging and interactive platform where users can explore and manipulate physics concepts directly, enhancing their learning experience.
 
-### Development
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Challenges we ran into
+In developing EnViz, we faced significant challenges, notably in making PhD-level physics content accessible to high school students and in the technical integration of backend and frontend systems. Researching and simplifying complex physics concepts to spark interest among younger learners required a delicate balance of depth and accessibility, challenging us to rethink traditional educational approaches. Additionally, merging the Python-based computational backend with the JavaScript-driven interactive frontend presented technical hurdles. These included ensuring real-time responsiveness and seamless data flow for the interactive simulations. Overcoming these challenges demanded a collaborative effort, innovative problem-solving, and rigorous testing to deliver an engaging and educationally rich user experience.
