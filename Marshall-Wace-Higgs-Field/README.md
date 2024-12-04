@@ -9,3 +9,4 @@ To build EnViz, we embarked on extensive research to accurately understand and c
 
 Challenges we ran into
 In developing EnViz, we faced significant challenges, notably in making PhD-level physics content accessible to high school students and in the technical integration of backend and frontend systems. Researching and simplifying complex physics concepts to spark interest among younger learners required a delicate balance of depth and accessibility, challenging us to rethink traditional educational approaches. Additionally, merging the Python-based computational backend with the JavaScript-driven interactive frontend presented technical hurdles. These included ensuring real-time responsiveness and seamless data flow for the interactive simulations. Overcoming these challenges demanded a collaborative effort, innovative problem-solving, and rigorous testing to deliver an engaging and educationally rich user experience.
+ 
