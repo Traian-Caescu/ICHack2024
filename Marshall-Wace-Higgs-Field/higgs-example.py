@@ -4,7 +4,7 @@ import json
 
 # Constants and settings
 C = 3e8  # Speed of light in meters/second
-VEV = 246e9  # GeV
+VEV = 246e9  # GeV 
 WIDTH, HEIGHT = 20, 20
 DIFFUSIONCONST = 0  # Range between 0 and 1 
 DIFFUSIONRADIUS = 5
